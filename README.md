@@ -316,11 +316,13 @@ Jika suatu saat database diganti, cukup membuat implementasi baru tanpa mengubah
 ### 6.1 Dependency Driver (`pom.xml`)
 
 ```xml
-<dependency>
-    <groupId>com.mysql</groupId>
-    <artifactId>mysql-connector-j</artifactId>
-    <version>8.4.0</version>
-</dependency>
+<dependencies>
+    <dependency>
+            <groupId>com.mysql</groupId>
+            <artifactId>mysql-connector-j</artifactId>
+            <version>8.4.0</version>
+    </dependency>
+</dependencies>
 ```
 
 ### 6.2 Koneksi Database (`config/DatabaseConnection.java`)
